@@ -1,0 +1,13 @@
+void matrizExemplo() {
+  List<List<int>> matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+  ];
+  print(matriz[0][2]);
+  for (var linha in matriz) {
+    for (var elemento in linha) {
+      print(elemento);
+    }
+  }
+}

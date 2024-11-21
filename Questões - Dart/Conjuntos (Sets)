@@ -1,0 +1,9 @@
+void conjuntoExemplo() {
+  Set<int> numeros = {1, 2, 3, 4, 5};
+  numeros.add(3);
+  numeros.add(6);
+  for (var numero in numeros) {
+    print(numero);
+  }
+  print(numeros.contains(3));
+}
