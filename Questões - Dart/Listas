@@ -1,9 +1,0 @@
-void listaExemplo() {
-  List<String> frutas = ['maçã', 'banana', 'laranja'];
-  frutas.add('uva');
-  print(frutas[0]);
-  for (var fruta in frutas) {
-    print(fruta);
-  }
-  print('Quantidade de frutas: ${frutas.length}');
-}

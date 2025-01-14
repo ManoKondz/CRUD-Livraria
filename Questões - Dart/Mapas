@@ -1,9 +1,0 @@
-void mapaExemplo() {
-  Map<String, int> idades = {'Alice': 30, 'Bob': 25};
-  print(idades['Alice']);
-  idades['Carlos'] = 40;
-  idades.forEach((nome, idade) {
-    print('$nome tem $idade anos');
-  });
-  print(idades.containsKey('Bob'));
-}
